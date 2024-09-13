@@ -29,10 +29,9 @@ export default {
         },
       },
       animation: {
-        'wave-hand': 'wave 1.5s ease-in-out infinite',
+        'wave-hand': 'wave 1.5s ease-in-out infinite', 
       },
     },
   },
   plugins: [],
 }
-

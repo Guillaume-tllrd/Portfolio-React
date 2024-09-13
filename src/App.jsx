@@ -3,6 +3,7 @@ import './App.css'
 import About from './components/About'
 import Acceuil from './components/Acceuil'
 import Navbar from './components/Navbar'
+import Projets from './components/Projets'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <Navbar/>
      <Acceuil/>
      <About/>
+     <Projets />
     </div>
     </>
   )
