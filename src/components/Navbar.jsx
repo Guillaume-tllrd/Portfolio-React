@@ -30,7 +30,7 @@ const Navbar = () => {
             </ul>
             <ThemeToggleButton />
         </div>
-        <div className="mx-4 my-4 dark:text-black">
+        <div className="mx-4 py-4 dark:text-white">
             <Menu onClick={toggleMenuBurger} className="hover:cursor-pointer transition-transform transform hover:scale-110  lg:hidden" aria-label="Toggle menu"/>
         </div>
         <SideNav visible={visible} toggleMenuBurger={toggleMenuBurger} />
