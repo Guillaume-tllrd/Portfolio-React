@@ -11,6 +11,7 @@ export default {
         playfair: ['"Playfair Display"', 'serif'],
         manrope: ['"Manrope"', 'sans-serif'],
         archivo: ['"Archivo Black"', 'sans-serif'],
+        lato: ["Lato", 'sans-serif'],
       },
       colors: {
         black1: 'rgb(23, 23, 23)',

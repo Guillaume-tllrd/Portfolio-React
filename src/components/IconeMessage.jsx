@@ -19,7 +19,6 @@ const IconMessage = ({ icon, label, isLucide = false, size = 30, className }) =>
                 <FontAwesomeIcon
                     icon={icon}
                     className={`${className} transition-transform duration-300 hover:translate-y-[-12px]`}
-                    size={size}
                     onMouseEnter={() => setShowMessage(true)}
                     onMouseLeave={() => setShowMessage(false)}
                 />

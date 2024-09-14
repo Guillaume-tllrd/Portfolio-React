@@ -8,19 +8,19 @@ const SideNav = ({ toggleMenuBurger, visible }) => {
             <button onClick={toggleMenuBurger} className='absolute top-4 right-4 text-black hover:text-gray-400 dark:text-white dark:hover:text-gray-400' aria-label="Close menu">
                 <X className='w-6 h-6'/>
             </button>
-            <ul className="mt-16 p-4">
-                <li className="mb-4 dark:text-white">
+            <ul className="mt-16 p-4 ">
+                <a className="mb-4 block dark:text-white relative ">
                       Accueil
-                </li>
-                <li className="mb-4 dark:text-white">
+                </a>
+                <a className="mb-4 block dark:text-white relative">
                      À propos
-                </li>
-                <li className="mb-4 dark:text-white">
+                </a>
+                <a className="mb-4 block dark:text-white relative">
                      Projets
-                </li>
-                <li className="mb-4 dark:text-white">
+                </a>
+                <a className="mb-4 block dark:text-white relative">
                       Technologies
-                </li>
+                </a>
             </ul>
         </div>
     );
