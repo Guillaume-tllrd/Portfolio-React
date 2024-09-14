@@ -18,7 +18,7 @@ const IconeMedia = () => {
             />
             <IconMessage 
                 icon={faEnvelope} 
-                label="Email" 
+                label="gui.tillard@gmailcom" 
                 className="text-3xl dark:text-white hover:text-red-500 dark:hover:text-red-500" 
             />
             {/* Utilisation de l'icône Lucide React */}
