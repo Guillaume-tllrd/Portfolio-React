@@ -4,6 +4,8 @@ import IconeMedia from './IconeMedia';
 
 const Acceuil = () => {
     return (
+        <>
+       
         <div className='md:flex mx-auto dark:bg-black1 pt-10 md:p-0'>
             <div className='md:w-[40%] ml-8 '>
                 <img className="w-full max-w-[calc(10vw+100px)] md:max-w-[calc(18vw+150px)] rounded-full mx-auto " src="./update2.jpg" alt="photo" />
@@ -16,8 +18,8 @@ const Acceuil = () => {
                 <IconeMedia />
                 <h4 className='xl:flex xl:gap-1 xl:justify-center xl:font-manrope hidden dark:text-white'><MapPin className='transition-transform duration-300 hover:translate-y-[-5px] dark:text-white'/>Dijon, France</h4>
             </div>
-            
         </div>
+        </>
     );
 };
 
