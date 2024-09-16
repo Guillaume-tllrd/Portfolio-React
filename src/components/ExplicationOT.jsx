@@ -1,11 +1,11 @@
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';;
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const ExplicationTL = () => {
+const ExplicationOT = () => {
     return (
         <div className='w-full mt-4 lg:mt-0 rounded-lg bg-blanc2 dark:bg-black2 font-manrope'>
-        <h1 className='mt-1 text-center  dark:text-white '>ToysLand</h1>
-        <div className='h-[4px] mx-auto w-14 rounded-lg bg-yellow1 mb-2'></div>
+        <h1 className='mt-1 text-center  dark:text-white '>OnlineTraining</h1>
+        <div className='h-[4px] mx-auto w-24 rounded-lg bg-yellow1 mb-2'></div>
         
 
             <ul className='mx-2'>
@@ -17,8 +17,8 @@ const ExplicationTL = () => {
                 <li className='flex gap-1 dark:text-white'>- Technologies utilisées : 
                     <img className='h-6' src="../../svg/php.svg" alt="" />
                     <img className='h-6' src="../../svg/mysql.svg" alt="" />
-                    <img className='h-6' src="../../svg/css3.svg" alt="" />
                     <img className='h-4' src="../../svg/docker.svg" alt="" />
+                    <img className='h-4' src="../../svg/tailwind.svg" alt="" />
                 </li>
             </ul>
         <div className="flex justify-center mt-2 pb-4">
@@ -36,4 +36,4 @@ const ExplicationTL = () => {
     );
 };
 
-export default ExplicationTL; 
+export default ExplicationOT;

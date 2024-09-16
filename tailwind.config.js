@@ -15,6 +15,9 @@ export default {
       },
       colors: {
         black1: 'rgb(23, 23, 23)',
+        black2: 'rgb(38, 38, 38)',
+
+        blanc2: 'rgb(245, 245, 245)',
         yellow1: 'rgb(243,211,13)',
       },
       keyframes: {

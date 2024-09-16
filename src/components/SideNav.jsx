@@ -9,22 +9,22 @@ const SideNav = ({ toggleMenuBurger, visible }) => {
             </button>
             <ul className="mt-16 p-4">
                 <li className="mb-4">
-                    <a className="inline-block dark:text-white relative">
+                    <a className="inline-block dark:text-white relative underlined">
                         Accueil
                     </a>
                 </li>
                 <li className="mb-4">
-                    <a className="inline-block dark:text-white relative">
+                    <a className="inline-block dark:text-white relative underlined">
                         À propos
                     </a>
                 </li>
                 <li className="mb-4">
-                    <a className="inline-block dark:text-white relative">
+                    <a className="inline-block dark:text-white relative underlined">
                         Projets
                     </a>
                 </li>
                 <li className="mb-4">
-                    <a className="inline-block dark:text-white relative">
+                    <a className="inline-block dark:text-white relative underlined">
                         Technologies
                     </a>
                 </li>

@@ -8,6 +8,8 @@ import SwipperTL from './SwipperTL';
 import ExplicationTL from './ExplicationTL';
 import SwipperAV from './SwipperAV';
 import ExplicationAV from './ExplicationAV';
+import SwipperOT from './SwipperOT';
+import ExplicationOT from './ExplicationOT';
 
 const Projets = () => {
     const [activeProject, setActiveProject] = useState('projet1'); 
@@ -17,7 +19,7 @@ const Projets = () => {
             <h1 className='font-archivo px-4 text-2xl md:text-3xl border-yellow1 dark:text-white'>Mes projets sélectionnés</h1>
             <div className='h-[6px] mx-4 w-24 rounded-lg bg-yellow1 mt-2'></div>
 
-            <nav className='px-2 my-4 mx-auto w-[380px] border-b '>
+            <nav className='px-2 my-4 mx-auto w-[380px] border-b font-manrope'>
                 <ul className="flex gap-4 justify-center items-center">
                     <li>
                     <button 
@@ -59,15 +61,15 @@ const Projets = () => {
             </nav>
 
             {/* Affichage du projet actif */}
-            <div className="lg:grid grid-cols-2  mt-4">
+            <div className="lg:grid grid-cols-2 gap-4 mt-4">
                 {activeProject === 'projet1' &&   <>
                     <SwipperCuisine />
                     <ExplicationC />
                 </>}
                 {activeProject === 'projet2' && 
                     <>
-                <SwipperJadoo />
-                <ExplicationJ />
+                    <SwipperOT/>
+                    <ExplicationOT/>
                     </>
                 }
                 {activeProject === 'projet3' && <>
@@ -78,6 +80,10 @@ const Projets = () => {
                 {activeProject === 'projet4' && <>
                     <SwipperAV/>
                     <ExplicationAV/>
+                </>}
+                {activeProject === 'projet5' && <>
+                    <SwipperJadoo />
+                    <ExplicationJ />
                 </>}
             </div>
         </div>

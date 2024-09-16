@@ -19,16 +19,16 @@ const Navbar = () => {
         <ThemeToggleButton />
         <nav className='hidden lg:flex h-16 justify-center items-center px-5 bg-white dark:bg-black1 font-manrope'>
             <ul className="flex gap-4">
-                <Link to="acceuil" smooth={true} duration={500}  className="relative dark:text-white cursor-pointer">
+                <Link to="acceuil" smooth={true} duration={500}  className="relative dark:text-white cursor-pointer underlined">
                     Accueil
                 </Link>
-                <Link to="about" smooth={true} duration={500} className=" dark:text-white relative cursor-pointer">
+                <Link to="about" smooth={true} duration={500} className=" dark:text-white relative cursor-pointer underlined">
                     À propos
                 </Link>
-                <Link to="projets" smooth={true} duration={500} className=" dark:text-white relative cursor-pointer">
+                <Link to="projets" smooth={true} duration={500} className=" dark:text-white relative cursor-pointer underlined">
                     Projets
                 </Link>
-                <Link    className=" dark:text-white relative cursor-pointer">
+                <Link    className=" dark:text-white relative cursor-pointer underlined">
                     Technologies
                 </Link>
             </ul>

@@ -8,7 +8,7 @@
 @tailwind components;
 @tailwind utilities;
 
-a::after {
+.underlined::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -21,7 +21,7 @@ a::after {
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
 }
-a:hover::after {
+.underlined:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -43,6 +43,8 @@ a:hover::after {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 8px;
+   
   }
   
   .swiper-pagination-bullet {
