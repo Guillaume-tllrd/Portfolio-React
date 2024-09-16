@@ -1,5 +1,4 @@
 import { MapPin } from 'lucide-react';
-import React from 'react';
 import IconeMedia from './IconeMedia';
 
 const Acceuil = () => {
@@ -10,7 +9,7 @@ const Acceuil = () => {
             <div className='md:w-[40%] ml-8 '>
                 <img className="w-full max-w-[calc(10vw+100px)] md:max-w-[calc(18vw+150px)] rounded-full mx-auto " src="./update2.jpg" alt="photo" />
 
-                    <h4 className='flex gap-1 justify-center font-manrope xl:hidden dark:text-white'><MapPin className='dark:text-white'/>Dijon, France</h4>
+                    <h4 className='flex gap-1 pt-1 text-sm justify-center font-manrope xl:hidden dark:text-white'><MapPin size={18} className=' dark:text-white'/>Dijon, France</h4>
             </div>
             <div className='lg:flex lg:flex-col lg:justify-center '>
                 <h1 className='font-lato  font-black text-6xl md:text-7xl mx-8 my-1 dark:text-white'>Guillaume TILLARD</h1>
