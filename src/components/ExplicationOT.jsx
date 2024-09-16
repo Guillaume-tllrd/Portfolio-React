@@ -8,19 +8,21 @@ const ExplicationOT = () => {
         <div className='h-[4px] mx-auto w-24 rounded-lg bg-yellow1 mb-2'></div>
         
 
-            <ul className='mx-2'>
-                <li className='dark:text-white'>- Développement d'une API RESTful.</li>
-                <li className='dark:text-white'>- Implémentation de l'authentification utilisateur via tokens JWT pour la gestion des sessions.</li>
-                <li className='dark:text-white'>- Fonctionnalité de gestion des recettes favorites par utilisateur authentifié.</li>
-                <li className='dark:text-white'>- Possibilité pour les utilisateurs de commenter chaque recette.</li>
-                <li className='dark:text-white'>- Utilisation de Redux pour une gestion centralisée de l'état, garantissant une navigation fluide et sans rechargement.</li>
+                    <ul className='mx-2'>
+                <li className='dark:text-white'>- Développement d'une plateforme interne pour la formation OnlineTraining, afin de permettre aux apprenants et formateurs d'interagir efficacement.</li>
+                <li className='dark:text-white'>- Conception d'un site e-commerce pour la vente de vêtements.</li>
+                <li className='dark:text-white'>- Création d'une messagerie intégrée permettant aux formateurs et aux apprenants d'échanger facilement.</li>
+                <li className='dark:text-white'>- Gestion des commandes après validation du panier.</li>
+                <li className='dark:text-white'>- Mise en place d'un accès différencié au tableau de bord en fonction des rôles des administrateurs.</li>
                 <li className='flex gap-1 dark:text-white'>- Technologies utilisées : 
-                    <img className='h-6' src="../../svg/php.svg" alt="" />
-                    <img className='h-6' src="../../svg/mysql.svg" alt="" />
-                    <img className='h-4' src="../../svg/docker.svg" alt="" />
-                    <img className='h-4' src="../../svg/tailwind.svg" alt="" />
+                    <img className='h-6' src="../../svg/php.svg" alt="PHP" />
+                    <img className='h-5' src="../../svg/javascript.svg" alt="JavaScript" />
+                    <img className='h-6' src="../../svg/mysql.svg" alt="MySQL" />
+                    <img className='h-4' src="../../svg/docker.svg" alt="Docker" />
+                    <img className='h-4' src="../../svg/tailwind.svg" alt="Tailwind CSS" />
                 </li>
             </ul>
+
         <div className="flex justify-center mt-2 pb-4">
                 <a 
                     className="flex items-center gap-2 px-2 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:bg-gray-800 transition dark:bg-white dark:text-black dark:hover:bg-gray-200"

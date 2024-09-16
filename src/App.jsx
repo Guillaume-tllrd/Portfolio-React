@@ -5,6 +5,7 @@ import About from './components/About'
 import Acceuil from './components/Acceuil'
 import Projets from './components/Projets'
 import Navbar from './components/Navbar'
+import Technologies from './components/Technologies'
 
 function App() {
 
@@ -23,7 +24,9 @@ function App() {
       <section id="projets"/>
         {<Projets/>}
       <section/>
-
+      <section id='technologies'>
+        {<Technologies/>}
+      </section>
     </div>
    
     </>
