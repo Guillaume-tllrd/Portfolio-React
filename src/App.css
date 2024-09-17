@@ -47,15 +47,10 @@
    
   }
   
-  .swiper-pagination-bullet {
-    color: #FAD906; /* Jaune pour les bullets */
-}
 
-.swiper-pagination-bullet-active {
-    color: #FAD906; /* Jaune pour les bullets actifs */
-}
 
-/* Navigation buttons */
-.swiper-button-next, .swiper-button-prev {
-    color: #FAD906; /* Jaune pour les boutons de navigation */
-}
+
+
+
+
+/* Optionnel : ajouter un effet de flou pour les diapositives en arrière-plan */
