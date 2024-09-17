@@ -1,4 +1,5 @@
 import { X } from 'lucide-react';
+import { Link } from 'react-scroll';
 
 const SideNav = ({ toggleMenuBurger, visible }) => {
     return (
@@ -8,24 +9,24 @@ const SideNav = ({ toggleMenuBurger, visible }) => {
             </button>
             <ul className="mt-16 p-4">
                 <li className="mb-4">
-                    <a className="inline-block dark:text-white relative underlined">
+                <Link to="acceuil" smooth={true} duration={500} className="inline-block dark:text-white relative cursor-pointer underlined">
                         Accueil
-                    </a>
+                    </Link>
                 </li>
                 <li className="mb-4">
-                    <a className="inline-block dark:text-white relative underlined">
+                    <Link to="about" smooth={true} duration={500} className="inline-block dark:text-white relative cursor-pointer underlined">
                         À propos
-                    </a>
+                    </Link>
                 </li>
                 <li className="mb-4">
-                    <a className="inline-block dark:text-white relative underlined">
+                    <Link to="projets" smooth={true} duration={500} className="inline-block dark:text-white relative cursor-pointer underlined">
                         Projets
-                    </a>
+                    </Link>
                 </li>
                 <li className="mb-4">
-                    <a className="inline-block dark:text-white relative underlined">
+                    <Link to="technologies" smooth={true} duration={500} className="inline-block dark:text-white relative cursor-pointer underlined">
                         Technologies
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </div>

@@ -35,8 +35,8 @@ const Navbar = () => {
             
         </nav>
         
-        <div className="fixed top-4 left-5 dark:text-white">
-            <Menu onClick={toggleMenuBurger} size={30} className="hover:cursor-pointer transition-transform transform hover:scale-110  lg:hidden" aria-label="Toggle menu"/>
+        <div className="fixed top-4 left-5 dark:text-white z-50">
+            <Menu onClick={toggleMenuBurger} size={30} className="hover:cursor-pointer  transition-transform transform hover:scale-110  lg:hidden" aria-label="Toggle menu"/>
         </div>
         <SideNav visible={visible} toggleMenuBurger={toggleMenuBurger} />
    
