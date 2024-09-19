@@ -28,7 +28,7 @@ const Navbar = () => {
                 <Link to="projets" smooth={true} duration={500} className=" dark:text-white relative cursor-pointer underlined">
                     Projets
                 </Link>
-                <Link    className=" dark:text-white relative cursor-pointer underlined">
+                <Link  to="technologies" className=" dark:text-white relative cursor-pointer underlined">
                     Technologies
                 </Link>
             </ul>

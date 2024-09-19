@@ -27,7 +27,7 @@ const SwipperOT = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src=".OT2.png" alt="" />
+                        <img src="./OT2.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
