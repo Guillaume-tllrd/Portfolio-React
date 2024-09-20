@@ -10,7 +10,7 @@ const CardCss = () => {
             </div>
         
         <h3 className='font-bold dark:text-white'>CSS, Tailwind & SASS</h3>
-        <p className='text-sm dark:text-white'>Pour styliser mes applications</p>
+        <p className='text-sm dark:text-white'>Pour styliser mes applications.</p>
     </div>
     );
 };

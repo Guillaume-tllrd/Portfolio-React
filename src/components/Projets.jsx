@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-
+import { useState } from 'react';
 import SwipperJadoo from './SwipperJadoo';
 import ExplicationJ from './ExplicationJ';
 import SwipperCuisine from './SwipperCuisine';
