@@ -7,12 +7,16 @@ const About = () => {
                 À propos de moi <span className='inline-block hover:animate-wave-hand'>🖐</span>
             </h1>
             <div className='h-[6px] mx-4 w-24 rounded-lg bg-yellow1 mt-2'></div>
-            <p className='dark:text-white font-manrope px-5 py-6 lg:px-8 lg:py-8'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore impedit facere ea doloremque! Impedit vel accusamus amet ducimus, assumenda quidem quae illum eaque excepturi saepe ab omnis maiores commodi culpa!
-                <span className='text-yellow1 font-semibold'>Lorems</span> ipsum dolor sit amet consectetur adipisicing elit. Temporibus aut non nisi, cum veniam quod ut odit nemo libero harum autem.
-                <br /><br />
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nulla nam aperiam deleniti, velit, ea molestias natus, pariatur tempore assumenda eius! Cum eius iste, deserunt velit unde exercitationem ducimus...
-            </p>
+            <div className='dark:text-white flex flex-col gap-y-4 font-manrope px-5 py-6 lg:px-8 lg:py-8 '>
+            <p>Après avoir validé un <span className='text-yellow1 font-bold'>master MEEF</span> pour devenir professeur des écoles, j'ai décidé de réaliser <span className='text-yellow1 font-bold'>un rêve </span> de longue date en partant vivre en <span className='text-yellow1 font-bold'>Australie</span> pendant un an et demi. Ce voyage m'a permis de découvrir de nombreuses cultures à travers l'Asie et a profondément <span className='text-yellow1 font-bold'>enrichi </span> ma vision du monde.</p>
+
+            <p>À mon retour en France, j'ai décidé de me reconvertir dans le <span className='text-yellow1 font-bold'>développement web</span>, un domaine où je retrouve le même sens de l'exploration et de la résolution de défis quotidiens.</p>
+
+            <p>Ce métier me passionne, car il allie <span className='text-yellow1 font-bold'>créativité et logique</span>, deux aspects qui me stimulent au quotidien. 
+            J'apprécie autant travailler sur le <span className='text-yellow1 font-bold'>front-end</span> que le <span className='text-yellow1 font-bold'>back-end</span>, et je suis curieux d'apprendre de nouvelles technologies. </p>
+
+            <p>Je suis <span className='text-yellow1 font-bold'>conscient</span> qu'il me reste encore beaucoup à découvrir, mais cela ne fait que renforcer ma <span className='text-yellow1 font-bold'>détermination</span>. Toujours prêt à relever de nouveaux défis, je serai disponible pour toute opportunité à partir du 2 décembre.</p>
+            </div>
         </div>
     );
 };
