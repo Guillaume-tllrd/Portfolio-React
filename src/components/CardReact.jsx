@@ -4,8 +4,8 @@ const CardReact = () => {
     return (
         <div className='flex flex-col w-[385px] mx-auto items-center justify-center rounded-md font-manrope h-36 bg-blanc2 dark:bg-black2 '>
             <div className='flex gap-2'>
-        <img className='h-10'src="../../svg/react.svg" alt="" />
-        <img className='h-10'src="../../svg/redux.svg" alt="" />
+        <img className='h-10'src="../../svg/react.svg" alt="logoREACT" />
+        <img className='h-10'src="../../svg/redux.svg" alt="logoREDUX" />
             </div>
         
         <h3 className='font-bold dark:text-white'>React & Redux</h3>

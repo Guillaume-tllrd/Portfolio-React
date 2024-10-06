@@ -12,6 +12,7 @@ const IconeMedia = () => {
                 icon={faGithub} 
                 label="GitHub" 
                 className="text-3xl dark:text-white dark:hover:text-gray-50" 
+                aria-label="Lien vers GitHub "
             />
             </a>
             <a href='https://fr.linkedin.com/in/guillaume-tillard-71b974306'
@@ -20,6 +21,7 @@ const IconeMedia = () => {
                 icon={faLinkedin} 
                 label="LinkedIn" 
                 className="text-3xl dark:text-white hover:text-blue-900 dark:hover:text-blue-900" 
+                aria-label="Lien vers LinkedIn "
             />
             </a>
             <a href="mailto:gui.tillard@gmail.com">
@@ -27,6 +29,7 @@ const IconeMedia = () => {
                     icon={faEnvelope} 
                     label="gui.tillard@gmail.com" 
                     className="text-3xl dark:text-white hover:text-red-500 dark:hover:text-red-500" 
+                    aria-label="Envoyer un email à Guillaume"
                 />
             </a>
             {/* Utilisation de l'icône Lucide React */}
@@ -35,6 +38,7 @@ const IconeMedia = () => {
                 isLucide={true} 
                 label="Télécharger CV" 
                 className="dark:text-white dark:hover:text-yellow1 hover:text-yellow1" 
+                aria-label="Télécharger le CV de Guillaume"
             />
             </a>
         </div>

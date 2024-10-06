@@ -4,9 +4,9 @@ const CardCss = () => {
     return (
         <div className='flex flex-col w-[385px] mx-auto items-center justify-center rounded-md font-manrope h-36 bg-blanc2 dark:bg-black2 '>
             <div className='flex gap-2'>
-        <img className='h-10'src="../../svg/css3.svg" alt="" />
-        <img className='h-7'src="../../svg/tailwind.svg" alt="" />
-        <img className='h-10'src="../../svg/sass.svg" alt="" />
+        <img className='h-10'src="../../svg/css3.svg" alt="logoCSS" />
+        <img className='h-7'src="../../svg/tailwind.svg" alt="logoTailwind" />
+        <img className='h-10'src="../../svg/sass.svg" alt="logoSass" />
             </div>
         
         <h3 className='font-bold dark:text-white'>CSS, Tailwind & SASS</h3>

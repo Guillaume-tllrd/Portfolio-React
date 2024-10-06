@@ -26,7 +26,7 @@ const ExplicationOT = () => {
         <div className="flex justify-center mt-2 pb-4 lg:mt-auto">
                 <a 
                     className="flex items-center gap-2 px-2 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:bg-gray-800 transition dark:bg-white dark:text-black dark:hover:bg-gray-200"
-                    href="https://github.com" 
+                    href="https://github.com/mathildejrdn/onlinetraining" 
                     target="_blank" 
                     
                     >

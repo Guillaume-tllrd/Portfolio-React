@@ -19,6 +19,7 @@ export default {
 
         blanc2: 'rgb(245, 245, 245)',
         yellow1: 'rgb(243,211,13)',
+        yellow2: '#D1A300',
       },
       keyframes: {
         wave: {

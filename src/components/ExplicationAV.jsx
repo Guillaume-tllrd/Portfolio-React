@@ -13,15 +13,15 @@ const ExplicationAV = () => {
                 
                 <li className='flex gap-1 dark:text-white'>
                     -Technologies utilisées: 
-                    <img className='h-6' src="../../svg/html5.svg" alt="" />
-                    <img className='h-6' src="../../svg/javascript.svg" alt="" />
-                    <img className='h-6' src="../../svg/css3.svg" alt="" />  
+                    <img className='h-6' src="../../svg/html5.svg" alt="logoHTML" />
+                    <img className='h-6' src="../../svg/javascript.svg" alt="logoJS" />
+                    <img className='h-6' src="../../svg/css3.svg" alt="logoCSS" />  
                 </li>
             </ul>
                 <div className="flex justify-center mt-2 pb-4 lg:mt-auto">
                 <a 
                     className="flex items-center gap-2 px-2 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:bg-gray-800 transition dark:bg-white dark:text-black dark:hover:bg-gray-200"
-                    href="https://github.com" 
+                    href="https://github.com/Guillaume-tllrd/agence-de-voyage" 
                     target="_blank" 
                     
                     >
