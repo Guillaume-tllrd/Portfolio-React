@@ -8,7 +8,7 @@ const CardReact = () => {
         <img className='h-10'src="/svg/redux.svg" alt="logoREDUX" />
             </div>
         
-        <h3 className='font-bold dark:text-white'>React & Redux</h3>
+        <h3 className='font-bold dark:text-white mt-1'>React & Redux</h3>
         <p className='text-center px-2 text-sm dark:text-white'>Pour une navigation fluide et sans rechargement de la page.</p>
     </div>
     );

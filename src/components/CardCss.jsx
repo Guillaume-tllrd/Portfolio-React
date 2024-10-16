@@ -9,7 +9,7 @@ const CardCss = () => {
         <img className='h-10'src="../../svg/sass.svg" alt="logoSass" />
             </div>
         
-        <h3 className='font-bold dark:text-white'>CSS, Tailwind & SASS</h3>
+        <h3 className='font-bold dark:text-white mt-1'>CSS, Tailwind & SASS</h3>
         <p className='text-sm dark:text-white'>Pour styliser mes applications.</p>
     </div>
     );

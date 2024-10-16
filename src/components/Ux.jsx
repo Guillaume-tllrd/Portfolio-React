@@ -22,7 +22,7 @@ const Ux = () => {
                     // pour la rotation de la flèche on utilise rotate-180 
                 />
             </div>
-            <div className={`overflow-hidden transition-all duration-500 ${visible ? 'max-h-40' : 'max-h-0'}`}>
+            <div className={`flex flex-wrap gap-4 overflow-hidden transition-all duration-500 ${visible ? 'max-h-40' : 'max-h-0'}`}>
                 <CardFigma />
             </div>
         </>
