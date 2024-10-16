@@ -45,6 +45,16 @@ const SwipperCuisine = () => {
                         <img src="/cook5.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className="swiper-zoom-container">
+                        <img src="/cook6.png" alt="imageSite" />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="swiper-zoom-container">
+                        <img src="/cook7.png" alt="imageSite" />
+                    </div>
+                </SwiperSlide>
         </Swiper>
       </>
     );

@@ -11,7 +11,7 @@ const Acceuil = () => {
             </div>
             <div className=' lg:flex lg:flex-col lg:justify-center '>
                 <h1 className='font-lato font-black text-6xl md:text-7xl mx-8 my-1 dark:text-white'>Guillaume TILLARD</h1>
-                <h2 className='font-manrope ml-8 w-[380px] text-4xl text-center  py-2 xl:mx-auto bg-no-repeat bg-bottom dark:text-white' style={{ backgroundImage: "url('/souligne_jaune.png')", backgroundPosition: '2200% 105%'}}>Développeur fullstack</h2>
+                <h2 className='font-manrope ml-8 w-[380px] text-3xl sm:text-4xl sm:text-center py-2 xl:mx-auto bg-no-repeat bg-bottom dark:text-white' style={{ backgroundImage: "url('/souligne_jaune.png')", backgroundPosition:  '200% 105%'}}>Développeur fullstack</h2>
                 <IconeMedia />
                 <h4 className='xl:flex xl:gap-1 xl:justify-center xl:font-manrope hidden dark:text-white'><MapPin className='transition-transform duration-300 hover:translate-y-[-5px] dark:text-white'/>Dijon, France</h4>
             </div>
