@@ -13,8 +13,8 @@ const ExplicationJ = () => {
             
             <li className='flex gap-1 dark:text-white'>
                 -Technologies utilisées: 
-                <img className='h-6' src="../../svg/html5.svg" alt="logoHTML" />
-                <img className='h-6' src="../../svg/css3.svg" alt="logoCSS" />
+                <img className='h-6' src="/svg/html5.svg" alt="logoHTML" />
+                <img className='h-6' src="/svg/css3.svg" alt="logoCSS" />
                 
             </li>
         </ul>

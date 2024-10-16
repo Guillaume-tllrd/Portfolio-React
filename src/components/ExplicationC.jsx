@@ -15,11 +15,11 @@ const ExplicationC = () => {
                 <li className='dark:text-white'>- Possibilité pour les utilisateurs de commenter chaque recette.</li>
                 <li className='dark:text-white'>- Utilisation de Redux pour une gestion centralisée de l'état, garantissant une navigation fluide et sans rechargement.</li>
                 <li className='flex gap-1 dark:text-white'>- Technologies utilisées : 
-                    <img className='h-6' src="../../svg/react.svg" alt="React" />
-                    <img className='h-6' src="../../svg/php.svg" alt="PHP" />
-                    <img className='h-6' src="../../svg/mysql.svg" alt="MySQL" />
-                    <img className='h-4' src="../../svg/tailwind.svg" alt="Tailwind CSS" />
-                    <img className='h-4' src="../../svg/docker.svg" alt="Docker" />
+                    <img className='h-6' src="/svg/react.svg" alt="React" />
+                    <img className='h-6' src="/svg/php.svg" alt="PHP" />
+                    <img className='h-6' src="/svg/mysql.svg" alt="MySQL" />
+                    <img className='h-4' src="/svg/tailwind.svg" alt="Tailwind CSS" />
+                    <img className='h-4' src="/svg/docker.svg" alt="Docker" />
                 </li>
             </ul>
         <div className="flex justify-center mt-2 pb-4 lg:mt-auto">

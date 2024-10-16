@@ -27,27 +27,27 @@ const SwipperOT = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./OT2.png" alt="imageSite" />
+                        <img src="/OT2.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./OT3.png" alt="imageSite" />
+                        <img src="/OT3.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./OT4.png" alt="imageSite" />
+                        <img src="/OT4.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./OT5.png" alt="imageSite" />
+                        <img src="/OT5.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./OT6.png" alt="imageSite" />
+                        <img src="/OT6.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
         </Swiper>

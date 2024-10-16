@@ -23,27 +23,27 @@ const SwipperAV = () => {
             >
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./AV1.png" alt="imageSite" />
+                        <img src="/AV1.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./AV2.png" alt="imageSite" />
+                        <img src="/AV2.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./AV3.png" alt="imageSite" />
+                        <img src="/AV3.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./AV4.png" alt="imageSite" />
+                        <img src="/AV4.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./AV5.png" alt="imageSite" />
+                        <img src="/AV5.png" alt="imageSite" />
                     </div>
                 </SwiperSlide>
             </Swiper>

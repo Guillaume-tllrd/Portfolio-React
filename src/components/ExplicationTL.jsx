@@ -15,9 +15,9 @@ const ExplicationTL = () => {
         <li className='dark:text-white'>- Développement d'un système de tri des produits basé sur les critères de recherche des utilisateurs pour améliorer la pertinence des résultats affichés.</li>
        
         <li className='flex gap-1 dark:text-white'>- Technologies utilisées : 
-            <img className='h-6' src="../../svg/php.svg" alt="PHP" />
-            <img className='h-6' src="../../svg/mysql.svg" alt="MySQL" />
-            <img className='h-4' src="../../svg/docker.svg" alt="Docker" />
+            <img className='h-6' src="/svg/php.svg" alt="PHP" />
+            <img className='h-6' src="/svg/mysql.svg" alt="MySQL" />
+            <img className='h-4' src="/svg/docker.svg" alt="Docker" />
         </li>
     </ul>
 

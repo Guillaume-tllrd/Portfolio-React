@@ -15,11 +15,11 @@ const ExplicationOT = () => {
                 <li className='dark:text-white'>- Gestion des commandes après validation du panier.</li>
                 <li className='dark:text-white'>- Mise en place d'un accès différencié au tableau de bord en fonction des rôles des administrateurs.</li>
                 <li className='flex gap-1 dark:text-white'>- Technologies utilisées : 
-                    <img className='h-6' src="../../svg/php.svg" alt="PHP" />
-                    <img className='h-5' src="../../svg/javascript.svg" alt="JavaScript" />
-                    <img className='h-6' src="../../svg/mysql.svg" alt="MySQL" />
-                    <img className='h-4' src="../../svg/docker.svg" alt="Docker" />
-                    <img className='h-4' src="../../svg/tailwind.svg" alt="Tailwind CSS" />
+                    <img className='h-6' src="/svg/php.svg" alt="PHP" />
+                    <img className='h-5' src="/svg/javascript.svg" alt="JavaScript" />
+                    <img className='h-6' src="/svg/mysql.svg" alt="MySQL" />
+                    <img className='h-4' src="/svg/docker.svg" alt="Docker" />
+                    <img className='h-4' src="/svg/tailwind.svg" alt="Tailwind CSS" />
                 </li>
             </ul>
 
