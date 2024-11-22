@@ -36,6 +36,9 @@ export default {
       animation: {
         'wave-hand': 'wave 1.5s ease-in-out infinite', 
       },
+      screens: {
+        'custom425': '425px', // taille d'écran de 450px
+      },
     },
   },
   plugins: [],

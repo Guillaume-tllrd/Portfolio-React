@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className="px-6 pb-6 lg:px-20 lg:pb-8">
-            <h1 className='font-archivo px-4 text-3xl mt-3 border-yellow1 dark:text-white'>
+            <h1 className='font-archivo px-4 text-xl sm:text2xl md:text-3xl border-yellow1 dark:text-white'>
                 À propos de moi <span className='inline-block hover:animate-wave-hand'>🖐</span>
             </h1>
             <div className='h-[6px] mx-4 w-24 rounded-lg bg-yellow1 mt-2'></div>

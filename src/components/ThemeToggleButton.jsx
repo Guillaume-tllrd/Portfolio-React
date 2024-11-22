@@ -1,6 +1,6 @@
 import  { useContext } from 'react';
 import { ThemeContext } from './ThemeContext';
-import { Moon, Sun, SunMoon } from 'lucide-react';
+import {  Sun, SunMoon } from 'lucide-react';
 
 const ThemeToggleButton = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
