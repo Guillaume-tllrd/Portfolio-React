@@ -22,32 +22,32 @@ const SwipperOT = () => {
             >
           <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="./OT1.png" alt="imageSite" />
+                        <img lazy="loading" src="./OT1.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/OT2.png" alt="imageSite" />
+                        <img lazy="loading" src="/OT2.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/OT3.png" alt="imageSite" />
+                        <img lazy="loading" src="/OT3.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/OT4.png" alt="imageSite" />
+                        <img lazy="loading" src="/OT4.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/OT5.png" alt="imageSite" />
+                        <img lazy="loading" src="/OT5.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/OT6.png" alt="imageSite" />
+                        <img lazy="loading" src="/OT6.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
         </Swiper>

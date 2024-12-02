@@ -22,27 +22,27 @@ const SwipperJadoo = () => {
             >
           <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/JadooHome.png" alt="imageSite" />
+                        <img lazy="loading" src="/JadooHome.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/Jadoo2.png" alt="imageSite" />
+                        <img lazy="loading" src="/Jadoo2.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/jadoo3.png" alt="imageSite" />
+                        <img lazy="loading" src="/jadoo3.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/Jadoo4.png" alt="imageSite" />
+                        <img lazy="loading" src="/Jadoo4.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/Jadoo5.png" alt="imageSite" />
+                        <img lazy="loading" src="/Jadoo5.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                

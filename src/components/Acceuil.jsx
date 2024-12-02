@@ -6,7 +6,7 @@ const Acceuil = () => {
         <>
         <div className='md:flex mx-auto dark:bg-black1 pt-10 lg:pt-0 lg:mb-6'>
             <div className='md:w-[40%] ml-8 '>
-                <img className="w-full max-w-[calc(10vw+100px)] md:max-w-[calc(18vw+150px)] rounded-full mx-auto " src="/update2.jpg" alt="img-accueil" />
+                <img lazy="loading" className="w-full max-w-[calc(10vw+100px)] md:max-w-[calc(18vw+150px)] rounded-full mx-auto " src="/update2.webp" alt="img-accueil" />
                     <h4 className='flex gap-1 pt-1 text-sm justify-center font-manrope xl:hidden dark:text-white'><MapPin size={18} className=' dark:text-white'/>Dijon, France</h4>
             </div>
             <div className=' lg:flex lg:flex-col lg:justify-center '>

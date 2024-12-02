@@ -22,37 +22,37 @@ const SwipperCuisine = () => {
             >
           <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/cook1.png" alt="imageSite" />
+                        <img lazy="loading" src="/cook1.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/cook2.png" alt="imageSite" />
+                        <img lazy="loading" src="/cook2.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/cook3.png" alt="imageSite" />
+                        <img lazy="loading" src="/cook3.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/cook4.png" alt="imageSite" />
+                        <img lazy="loading" src="/cook4.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/cook5.png" alt="imageSite" />
+                        <img lazy="loading" src="/cook5.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/cook6.png" alt="imageSite" />
+                        <img lazy="loading" src="/cook6.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
-                        <img src="/cook7.png" alt="imageSite" />
+                        <img lazy="loading" src="/cook7.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
         </Swiper>
