@@ -15,7 +15,7 @@ const About = () => {
             <p>Ce métier me passionne, car il allie <span className=' font-bold  dark:text-yellow1'>créativité et logique</span>, deux aspects qui me stimulent au quotidien. 
             J'apprécie autant travailler sur le <span className=' font-bold  dark:text-yellow1'>front-end</span> que le <span className=' font-bold  dark:text-yellow1'>back-end</span>, et je suis curieux d'apprendre de nouvelles technologies. </p>
 
-            <p>Je suis <span className=' font-bold dark:text-yellow1'>conscient</span> qu'il me reste encore beaucoup à découvrir, mais cela ne fait que renforcer ma <span className=' font-bold  dark:text-yellow1'>détermination</span>. Toujours prêt à relever de nouveaux défis, je serai disponible pour toute opportunité à partir du 2 décembre.</p>
+            <p>Je suis <span className=' font-bold dark:text-yellow1'>conscient</span> qu'il me reste encore beaucoup à découvrir, mais cela ne fait que renforcer ma <span className=' font-bold  dark:text-yellow1'>détermination</span>. Toujours prêt à relever de nouveaux défis, je suis disponible pour toute opportunité dès que possible.</p>
             </div>
         </div>
     );
