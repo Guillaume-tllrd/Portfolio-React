@@ -45,11 +45,7 @@ const SwipperOT = () => {
                         <img lazy="loading" src="/OT5.webp" alt="imageSite" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div className="swiper-zoom-container">
-                        <img lazy="loading" src="/OT6.webp" alt="imageSite" />
-                    </div>
-                </SwiperSlide>
+            
         </Swiper>
       </>
     );
